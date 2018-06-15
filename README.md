@@ -10,23 +10,25 @@
 
 ①默认效果（只有标题和返回键）
 
-![](https://github.com/JQMotee/customtoolbar/blob/master/img/%E9%BB%98%E8%AE%A42.png)
+![](/img/默认2.png)
+
+
 
 ②隐藏左侧
 
-![](https://github.com/JQMotee/customtoolbar/blob/master/img/%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%B7%A6%E4%BE%A7.png)
+![](/img/不显示左侧.png)
 
 ③透明背景（图标和文字自动设置为白色）
 
-![](https://github.com/JQMotee/customtoolbar/blob/master/img/%E9%80%8F%E6%98%8E%E8%83%8C%E6%99%AF.png)
+![](/img/透明背景.png)
 
 ④有色背景（图标和文字自动设置为白色）
 
-![](https://github.com/JQMotee/customtoolbar/blob/master/img/%E6%9C%89%E8%89%B2%E8%83%8C%E6%99%AF.png)
+![](/img/有色背景.png)
 
 ⑤其他（activity没有全屏，空白高度为状态栏高度）
 
-![](https://github.com/JQMotee/customtoolbar/blob/master/img/%E5%B7%A6%E4%B8%AD%E5%8F%B3.png)
+![](/img/左中右.png)
 
 
 
