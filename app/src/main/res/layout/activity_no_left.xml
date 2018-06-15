@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.clz.view.demo.NoLeftActivity">
+    <com.clz.view.customtoolbar.CustomToolBar
+        app:isFitStatusBar="false"
+        app:rightTextColor="@color/red"
+        app:isShowLeft="false"
+        app:rightText="删除"
+        app:titleText="无色背景toolbar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

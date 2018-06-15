@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomToolBar">
+        <attr name="isFitStatusBar" format="boolean" />
+        <attr name="rightIcon" format="reference" />
+        <attr name="leftIcon" format="reference" />
+        <attr name="titleText" format="string" />
+        <attr name="leftText" format="string" />
+        <attr name="rightText" format="string" />
+        <attr name="isShowLeft" format="boolean" />
+        <attr name="isShowBottomLine" format="boolean" />
+        <attr name="isShowShadow" format="boolean" />
+        <attr name="bgColor" format="reference" />
+        <attr name="textColor" format="reference" />
+        <attr name="rightTextColor" format="reference" />
+        <attr name="shadowColor" format="reference" />
+        <attr name="shadowHeight" format="dimension" />
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <attr name="rightTextSize" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>

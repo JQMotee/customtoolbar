@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="line_color">#DBDBDB</color>
+    <color name="white">#fff</color>
+    <color name="gray_666">#666666</color>
+    <color name="gray_333">#333333</color>
+    <color name="gray_999">#999999</color>
+
+    <color name="shadow_color">#88757575</color>
+    <color name="transparent">#00000000</color>
+
+</resources>
