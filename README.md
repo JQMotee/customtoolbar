@@ -2,7 +2,39 @@
 
 
 
-#### 属性
+#### 1.说明
+
+* 图标颜色会在toolbar背景色（bgColor）不是白色时渲染为白色
+* 默认流出状态栏高度
+* 5.0以上且白色背景时默认有阴影（5.0以下由于阴影占空间所以没添加）
+
+①默认效果（只有标题和返回键）
+
+![](E:\develop\android\custom\demo\img\默认2.png)
+
+
+
+②隐藏左侧
+
+![](E:\develop\android\custom\demo\img\不显示左侧.png)
+
+③透明背景（图标和文字自动设置为白色）
+
+![](E:\develop\android\custom\demo\img\透明背景.png)
+
+④有色背景（图标和文字自动设置为白色）
+
+![](E:\develop\android\custom\demo\img\有色背景.png)
+
+⑤其他（activity没有全屏，空白高度为状态栏高度）
+
+![](E:\develop\android\custom\demo\img\左中右.png)
+
+
+
+
+
+#### 2.属性
 
 |       名称       |                             描述                             | 值的类型  |
 | :--------------: | :----------------------------------------------------------: | :-------: |
@@ -23,7 +55,7 @@
 |   leftTextSize   |                         左侧文字大小                         | dimension |
 |  rightTextSize   |                         右侧文字大小                         | dimension |
 
-#### 方法
+#### 3.方法
 
 |                       名称                        |         描述         |
 | :-----------------------------------------------: | :------------------: |
@@ -50,5 +82,4 @@
 |               setLeftIcon(int icon)               |     设置左侧图片     |
 |            setRightIcon(Drawable icon)            |     设置右侧图片     |
 |            setLeftIcon(Drawable icon)             |     设置左侧图片     |
-|                                                   |                      |
 
