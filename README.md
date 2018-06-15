@@ -10,25 +10,25 @@
 
 ①默认效果（只有标题和返回键）
 
-![](E:\develop\android\custom\demo\img\默认2.png)
+![](.\img\默认2.png)
 
 
 
 ②隐藏左侧
 
-![](E:\develop\android\custom\demo\img\不显示左侧.png)
+![](E.\img\不显示左侧.png)
 
 ③透明背景（图标和文字自动设置为白色）
 
-![](E:\develop\android\custom\demo\img\透明背景.png)
+![](.\img\透明背景.png)
 
 ④有色背景（图标和文字自动设置为白色）
 
-![](E:\develop\android\custom\demo\img\有色背景.png)
+![](.\img\有色背景.png)
 
 ⑤其他（activity没有全屏，空白高度为状态栏高度）
 
-![](E:\develop\android\custom\demo\img\左中右.png)
+![](.\img\左中右.png)
 
 
 
