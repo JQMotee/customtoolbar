@@ -1,8 +1,58 @@
 # 自定义toolbar
 
+#### 1.引入
+
+①maven
+
+```
+<dependency>
+  <groupId>com.motee</groupId>
+  <artifactId>toolbar</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+
+②gradle
+
+```
+compile 'com.motee:toolbar:1.0.0'
+```
+
+#### 2.使用说明
+
+①xml添加代码
+
+```
+    <com.clz.view.customtoolbar.CustomToolBar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+```
+
+②代码中添加点击事件或者设置属性
+
+```
+        CustomToolBar mToolbar = findViewById(R.id.toolbar);
+        mToolbar.setTitle("标题");
+        mToolbar.setRightText("右侧按钮");
+        mToolbar.setLeftOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+        mToolbar.setRightOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                deleteSomething();
+            }
+        });
+```
 
 
-#### 1.说明
+
+#### 3.样式说明
 
 * 图标颜色会在toolbar背景色（bgColor）不是白色时渲染为白色
 * 默认流出状态栏高度
@@ -34,7 +84,7 @@
 
 
 
-#### 2.属性
+#### 4.属性汇总
 
 |       名称       |                             描述                             | 值的类型  |
 | :--------------: | :----------------------------------------------------------: | :-------: |
@@ -55,7 +105,7 @@
 |   leftTextSize   |                         左侧文字大小                         | dimension |
 |  rightTextSize   |                         右侧文字大小                         | dimension |
 
-#### 3.方法
+#### 5.方法汇总
 
 |                       名称                        |         描述         |
 | :-----------------------------------------------: | :------------------: |
